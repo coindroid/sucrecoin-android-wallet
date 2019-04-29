@@ -87,8 +87,8 @@ public class Constants {
 
     // TODO move to resource files
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(
-            new CoinAddress(SucrecoinMain.get(), new ServerAddress("", 60001),
-                    new ServerAddress("", 60001))
+            new CoinAddress(SucrecoinMain.get(), new ServerAddress("80.211.187.186", 60001),
+                    new ServerAddress("80.211.187.186", 60001))
 
     );
 
