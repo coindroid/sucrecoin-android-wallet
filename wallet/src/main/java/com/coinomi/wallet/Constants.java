@@ -85,7 +85,7 @@ public class Constants {
     public static final String PARTNERS_URI = "https://sucrecoin.io//partner.json";
     public static final String SUPPORT_EMAIL = "support@sucrecoin.org";
 
-    public static final int HANBURGER_ICON = R.drawable.hamburger_and_padding_action_bar;
+    public static final int ACTIONBAR_ICON = R.drawable.hamburger_and_padding_action_bar;
 
     // TODO move to resource files
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(

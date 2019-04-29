@@ -24,7 +24,7 @@ import com.coinomi.wallet.ui.common.BaseFragment;
 
 import java.util.List;
 
-import static com.coinomi.wallet.Constants.HANBURGER_ICON;
+import static com.coinomi.wallet.Constants.ACTIONBAR_ICON;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
@@ -194,8 +194,9 @@ public class NavigationDrawerFragment extends BaseFragment {
         mDrawerListView.setAdapter(listAdapter);
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
 
-        mDrawerToggle.setDrawerIndicatorEnabled(false); //disable "hamburger to arrow" drawable
-        mDrawerToggle.setHomeAsUpIndicator(HANBURGER_ICON);
+        // JULS2
+        mDrawerToggle.setDrawerIndicatorEnabled(false);
+        mDrawerToggle.setHomeAsUpIndicator(ACTIONBAR_ICON);
         mDrawerToggle.syncState();
     }
 
