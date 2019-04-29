@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
@@ -24,6 +23,8 @@ import com.coinomi.wallet.R;
 import com.coinomi.wallet.ui.common.BaseFragment;
 
 import java.util.List;
+
+import static com.coinomi.wallet.Constants.HANBURGER_ICON;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
@@ -194,7 +195,7 @@ public class NavigationDrawerFragment extends BaseFragment {
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
 
         mDrawerToggle.setDrawerIndicatorEnabled(false); //disable "hamburger to arrow" drawable
-        mDrawerToggle.setHomeAsUpIndicator(R.drawable.sucrecoin);
+        mDrawerToggle.setHomeAsUpIndicator(HANBURGER_ICON);
         mDrawerToggle.syncState();
     }
 
