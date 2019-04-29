@@ -142,6 +142,7 @@ public class NavigationDrawerFragment extends BaseFragment {
                 R.string.navigation_drawer_open,  /* "open drawer" description for accessibility */
                 R.string.navigation_drawer_close  /* "close drawer" description for accessibility */
         ) {
+
             @Override
             public void onDrawerClosed(View drawerView) {
                 super.onDrawerClosed(drawerView);
@@ -191,6 +192,10 @@ public class NavigationDrawerFragment extends BaseFragment {
         listAdapter = new NavDrawerListAdapter(getActivity(), navDrawerItems);
         mDrawerListView.setAdapter(listAdapter);
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
+
+        mDrawerToggle.setDrawerIndicatorEnabled(false); //disable "hamburger to arrow" drawable
+        mDrawerToggle.setHomeAsUpIndicator(R.drawable.sucrecoin);
+        mDrawerToggle.syncState();
     }
 
     public void setItems(List<NavDrawerItem> items) {

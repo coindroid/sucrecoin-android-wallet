@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- http://www.google.com/design/spec/style/color.html#color-ui-color-application -->
-    <color name="primary_100">#a08d10</color>
-    <color name="primary_500">#a08d10</color>
-    <color name="primary_600">#a08d10</color>
-    <color name="primary_700">#a08d10</color>
-    <color name="primary_800">#a08d10</color>
-    <color name="primary_900">#a08d10</color>
-    <color name="accent">#a08d10</color>
+    <color name="primary_100">#73684F</color>
+    <color name="primary_500">#73684F</color>
+    <color name="primary_600">#73684F</color>
+    <color name="primary_700">#73684F</color>
+    <color name="primary_800">#73684F</color>
+    <color name="primary_900">#73684F</color>
+    <color name="accent">#73684F</color>
 
 
     <color name="send_light">#FFECB3</color>

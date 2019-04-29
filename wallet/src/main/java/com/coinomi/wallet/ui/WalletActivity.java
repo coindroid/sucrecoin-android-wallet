@@ -45,6 +45,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+
 import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_COIN;
 import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_OVERVIEW;
 import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
@@ -100,6 +101,7 @@ final public class WalletActivity extends BaseWalletActivity implements
     private OverviewFragment overviewFragment;
     @Nullable private AccountFragment accountFragment;
 
+    private DrawerLayout drawerLayout;
     public WalletActivity() {}
 
     @Override
@@ -167,6 +169,15 @@ final public class WalletActivity extends BaseWalletActivity implements
                     getIntent().getStringExtra(Constants.ARG_URI)));
             getIntent().removeExtra(Constants.ARG_URI);
         }
+
+
+        drawerLayout = findViewById(R.id.drawer_layout);
+        drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
+
+
+
+
+
     }
 
     private void setOverviewTitle() {

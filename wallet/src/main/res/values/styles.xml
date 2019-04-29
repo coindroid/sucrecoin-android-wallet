@@ -26,6 +26,14 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>зфзф
+    </style>
+
+    <style name="ActionBarTitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">12dp</item>   <!-- Can't get this padding to work :( -->
+    </style>
     <!-- Special Button styles -->
     <style name="BorderlessButton">
         <item name="android:background">?attr/selectableItemBackground</item>
