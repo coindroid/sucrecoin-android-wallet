@@ -69,7 +69,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingTop="@dimen/activity_vertical_margin">
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/translation_globe"
@@ -93,7 +94,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="web"
-            android:text="@string/about_credits_translations_credits" />
+            android:text="@string/about_credits_translations_credits"
+            android:visibility="gone" />
 
         <TextView
             style="@style/NormalText"
@@ -109,7 +111,8 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:paddingTop="16dp"
-            android:text="@string/about_credits_bitcoinj" />
+            android:text="@string/about_credits_bitcoinj"
+            android:visibility="gone" />
 
         <TextView
             style="@style/NormalText"
@@ -117,7 +120,8 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:paddingTop="16dp"
-            android:text="@string/about_credits_electrum" />
+            android:text="@string/about_credits_electrum"
+            android:visibility="gone" />
 
         <TextView
             style="@style/NormalText"
@@ -125,7 +129,8 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:paddingTop="16dp"
-            android:text="@string/about_credits_schildbach" />
+            android:text="@string/about_credits_schildbach"
+            android:visibility="gone" />
 
         <TextView
             style="@style/NormalText"
@@ -133,7 +138,8 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:paddingTop="16dp"
-            android:text="@string/about_credits_zxing" />
+            android:text="@string/about_credits_zxing"
+            android:visibility="gone" />
 
         <TextView
             style="@style/NormalText"
@@ -141,7 +147,8 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:paddingTop="16dp"
-            android:text="@string/about_credits_font_icons" />
+            android:text="@string/about_credits_font_icons"
+            android:visibility="gone" />
 
         <TextView
             style="@style/NormalText"

@@ -173,7 +173,7 @@
     <!-- About Activity -->
     <string name="title_activity_about">Acerca de Sucrecoin</string>
     <string name="app_name_long">Sucrecoin para Android</string>
-    <string name="about_licence">Un proyecto de código abierto\nhttps://github.com/Coinomi/coinomi-android\nCódigo fuente bajo licencia GNU General Public License 3</string>
+    <string name="about_licence">Un proyecto de código abierto\nhttps://github.com/SucrecoinProject/Sucrecoin\nCódigo fuente bajo licencia GNU General Public License 3</string>
     <string name="about_credits_nubits">Infraestructura de servidor donado por NuBits - Primera moneda digital estable del mundo\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Traducciones proporcionadas por:</string>
     <string name="about_credits_bitcoinj">Utiliza la biblioteca Bitcoinj\nhttp://bitcoinj.github.io/</string>
