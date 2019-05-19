@@ -430,9 +430,16 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
         public List<AbstractTransaction> loadInBackground() {
             final List<AbstractTransaction> filteredAbstractTransactions = Lists.newArrayList(account.getTransactions().values());
 
-            Collections.sort(filteredAbstractTransactions, TRANSACTION_COMPARATOR);
-
+            try {
+                Collections.sort(filteredAbstractTransactions, TRANSACTION_COMPARATOR);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             return filteredAbstractTransactions;
+
+
+
+
         }
 
         private static final Comparator<AbstractTransaction> TRANSACTION_COMPARATOR = new Comparator<AbstractTransaction>() {
